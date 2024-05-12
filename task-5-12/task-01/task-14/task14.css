@@ -1,0 +1,7 @@
+body
+{
+    background-image: url(../photo/flower.jpeg) , url(../photo/js.png);
+    background-repeat: repeat-x ,repeat-y;
+    background-size: contain;
+    
+}

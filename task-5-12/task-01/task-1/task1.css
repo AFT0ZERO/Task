@@ -1,0 +1,20 @@
+.C_red
+{
+    color: red;
+
+}
+.C_green
+{
+    color: green;
+}
+.C_blue
+{
+    color: blue;
+}
+.C_yellow
+{
+    color: yellow;
+}
+span{
+    font-size: 2em;
+}

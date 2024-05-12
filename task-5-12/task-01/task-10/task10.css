@@ -1,0 +1,21 @@
+#pink
+{
+    background-color: pink;
+    color: aliceblue;
+    padding: 3px;
+    font-weight: 600;
+}
+.blue
+{
+    background-color: rgb(0, 153, 255);
+    color: aliceblue;
+    padding:3px;
+    font-weight: 600;
+}
+.orange
+{ 
+    background-color: rgb(255, 174, 0);
+    color: aliceblue;
+    padding: 3px;
+    font-weight: 600;
+}

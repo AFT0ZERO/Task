@@ -1,0 +1,25 @@
+.background{
+    background-color: blue;
+    height: 50px;
+}
+.color-yellow
+{
+    color: yellow;
+    padding: 5px;
+}
+
+.color-red
+{
+    color: red;
+   font-size: 20px;
+}
+.italc
+{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.color-green
+{
+    color: green;
+}

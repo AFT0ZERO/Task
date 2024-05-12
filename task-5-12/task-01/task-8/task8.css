@@ -1,0 +1,25 @@
+body
+{
+    background-color: aquamarine;
+}
+
+.p1
+{
+    background-color: aliceblue;
+    color: red;
+}
+.p2
+{
+    background-image: url(../photo/5.jpg);
+    background-size:initial;
+    
+
+}
+.p3 
+{
+    background-image: url(../photo/css.png) , url(../photo/flower.jpeg);
+    background-repeat: no-repeat , no-repeat;
+    background-position: left  , right ;
+    background-size: 50% 100% , 50% 100%;
+
+}
