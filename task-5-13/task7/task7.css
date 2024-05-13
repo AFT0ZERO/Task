@@ -1,0 +1,15 @@
+.flex 
+{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    
+}
+.flex div
+{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+
+
+}

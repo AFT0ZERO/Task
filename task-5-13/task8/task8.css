@@ -1,0 +1,20 @@
+.flex
+{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.flex div
+{
+    background-color: aquamarine;
+    width: 33%;
+    font-size: x-large;
+    color: brown;
+    text-align: center;
+}
+
+.flex .one
+{
+    flex-grow: 1;
+    background-color: aqua;
+}
