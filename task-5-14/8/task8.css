@@ -1,0 +1,13 @@
+.grid
+{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3 , 280px);
+    grid-template-rows: repeat(3,auto);
+    gap: 5px;
+   
+}
+.grid div
+{
+    width: 275px;
+}

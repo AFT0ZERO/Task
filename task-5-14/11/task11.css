@@ -1,0 +1,58 @@
+.parent1
+{
+    display: grid;
+    background-color: white;
+    width: 800px;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto);
+    gap: 3px;
+}
+.parent2
+{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    grid-template-rows: 50px;
+
+}
+.parent2 div
+{
+    margin: 2px;
+    width: auto;
+    height: auto;
+    background-color: rgb(102, 102, 102);
+}
+
+.parent3
+{
+    display: grid;
+    grid-template-rows:auto;
+
+}
+.parent3 div
+{
+    margin: 2px;
+    width: auto;
+    height: auto;
+    background-color: rgb(102, 102, 102);
+}
+
+.parent4
+{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.parent4 div
+{
+    margin: 2px;
+    width: auto;
+    height: auto;
+    background-color: rgb(102, 102, 102);
+}
+
+div
+{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(207, 205, 205);
+}

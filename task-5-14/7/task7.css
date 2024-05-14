@@ -1,0 +1,18 @@
+.grid
+{
+    border: 1px solid;
+    display: grid;
+    width: 98%;
+    grid-template-columns: repeat(3,100px);
+    justify-content: space-evenly;
+    row-gap: 10px;
+    margin: 5px ;
+}
+
+.grid div
+{
+    height: 30px;
+    background-color: rgb(163, 184, 204);
+    text-align: center;
+    color: white;
+}

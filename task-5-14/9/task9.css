@@ -1,0 +1,35 @@
+.grid
+{
+    display: grid;
+    width: 700px;
+    height: 700px;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(5,auto);
+    margin: 20px;
+}
+.one
+{
+    background-color: brown;
+    opacity: 0.8;
+    grid-area: 1/1/4/4;
+position: relative;
+z-index: 3;
+}
+.two
+{
+    background-color: green;
+    opacity: 0.8;
+    grid-area: 3/3/6/6;
+    position: relative;
+    z-index: 2;
+    
+}
+.three
+{
+    background-color: blue;
+    opacity: 0.8;
+    grid-area: 2/2/5/5;
+    position: relative;
+    z-index: 1;
+    
+}
