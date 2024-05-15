@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-grid
+{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-template-rows: 20px 60px auto 100px ;
+    grid-template-areas:
+    "save save save save save save"
+    "nav nav nav nav nav nav"
+    "cont cont cont cont cont cont"
+    "footer footer footer footer footer footer";
+}
+header
+{
+    grid-area:save ;
+    background-color: rgb(1, 0, 72);
+    text-align: center;
+    color: white;
+}
+/*  start nav bar */
+nav
+{
+    display: flex;
+    grid-area: nav;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.logo
+{
+    color: rgb(1, 0, 72);
+    font-size: 40px;
+    padding-left:40px ;
+    
+}
+.shop
+{
+    color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: rgb(255, 115, 34);
+    width:100px ;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+    font-weight: bold;
+    
+}
+/* end nav bar */
+/* start section */
+section
+{
+    grid-area: cont;
+    background-color: rgb(239, 246, 248);
+    display: flex;
+    flex-direction: column;
+
+
+}
+.content
+{
+    
+    background-image: url(/hand.png);
+    width: 100%;
+    padding-left:40px ;
+    color: rgb(1, 0, 72);
+    height: 455px;
+}
+.content-body
+{
+    padding-top: 100px;
+}
+.content-body h1{
+    font-size: 40px;
+}
+.checked {
+    color: orange;
+  }
+.rating
+  {
+    margin-left: 15px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 13px;
+
+  }
+.buy
+{
+    color: white;
+    background-color: rgb(255, 115, 34);
+    width:300px ;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+    font-weight: bold;
+}
+.free_shiping 
+{
+    font-size: 13px;
+    margin-top: 10px;
+   margin-left: 100px;
+    
+}
+.free_shiping2
+{
+    font-size: 13px;
+   margin-left: 30px;
+
+}
+/* end section */
+footer
+{
+    display: flex;
+    background-color: rgb(0, 16, 161);
+    grid-area: footer;
+    justify-content: space-around;
+
+}
+footer div
+{
+ margin-top: 10px;   
+}

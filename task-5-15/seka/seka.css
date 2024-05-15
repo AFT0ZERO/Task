@@ -1,0 +1,56 @@
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header div{
+    margin-left: 100px;
+}
+.body 
+{
+    display: flex;
+    flex-direction: row;
+background-color: rgb(68, 139, 222);
+}
+.body div
+{
+    margin-left: 20px;
+
+}
+
+.content
+{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.content div 
+{
+color: white;
+width: 70%;
+}
+button
+{
+    width: 250px;
+    height: 30px;
+    color: rgb(68, 139, 222);
+    text-align: center;
+}
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 10px;
+
+}
+.footerfooter
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(68, 139, 222);
+    height: 100px;
+}
