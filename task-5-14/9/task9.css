@@ -10,10 +10,10 @@
 .one
 {
     background-color: brown;
-    opacity: 0.8;
+    opacity: 0.9;
     grid-area: 1/1/4/4;
-position: relative;
-z-index: 3;
+    position: relative;
+    z-index: 3;
 }
 .two
 {
